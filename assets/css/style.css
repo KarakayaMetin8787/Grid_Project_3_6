@@ -82,6 +82,7 @@ li {
 
 .big {
     grid-area: A;
+    justify-self: center;
 }
 
 .big img {
