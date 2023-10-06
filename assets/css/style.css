@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "karla";
+    src: url(./../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "karla";
+    color: #323A45;
+    margin-inline: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ---------------------------- Header ---------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 103px;
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 60px ;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ------------------------------ Main ------------------------------- */
+
+.company {
+    color: #848484;
+    margin-bottom: 60px;
+}
+
+.productname_pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.products {
+    display: grid;
+    grid-template-areas: 
+    "A A A"
+    "B C D"
+    "E F G"
+    ;
+    column-gap: 20px;
+    justify-content: space-evenly;
+}
+
+.big {
+    grid-area: A;
+}
+
+.big img {
+    width: 1360px;
+}
+
+.small img {
+    width: 440px;
+}
+
+/* ------------------------------ Footer --------------------------- */
+
+.copyright {
+    color: #848484;
+    line-height: 20px;
+    font-size: 0.6rem;
+    margin-top: 44PX;
+}
+
+h3 {
+    font-size: 0.813rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 433px 216px 433px 216px;
+    column-gap: 20px;
+}
+
+footer div a {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #323A45;
+    display: block;
+}
+
+footer div p {
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+span {
+    font-weight: 700;
+}
